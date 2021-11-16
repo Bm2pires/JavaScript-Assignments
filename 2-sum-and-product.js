@@ -1,6 +1,8 @@
+// test data
 var array1 = [1, 2, 3];
 var array2 = [2, 30, 1];
 
+// function
 function arrDetails(arr) {
   let sum = 0,
     product = arr[0];
@@ -15,5 +17,6 @@ function arrDetails(arr) {
   console.log(`Product of ${arr} is ${product}\n`);
 }
 
+// call the function
 arrDetails(array1);
 arrDetails(array2);
