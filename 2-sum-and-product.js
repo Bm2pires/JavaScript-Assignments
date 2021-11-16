@@ -2,7 +2,7 @@
 var array1 = [1, 2, 3];
 var array2 = [2, 30, 1];
 
-// function
+// function to show the sum and product of an array
 function arrDetails(arr) {
   let sum = 0,
     product = arr[0];
